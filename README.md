@@ -78,7 +78,7 @@ var CarLot = (function (globalScopeCarLot) {
     loadInventory: function (callback) {
       var load = new XMLHttpRequest();
 
-      inventoryLoader.addEventListener("load", function () {
+      load.addEventListener("load", function () {
         // Add each car to the private _car_inventory array
       });
     }
